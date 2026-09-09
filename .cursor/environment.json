@@ -1,0 +1,4 @@
+{
+  "name": "leetcode (Go)",
+  "install": "bash .cursor/install.sh"
+}
