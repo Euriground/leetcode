@@ -6,14 +6,8 @@ func main() {
 	fmt.Println(subtractProductAndSum(234))
 }
 
+// TODO: implement. See README.md for the problem statement.
+// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 func subtractProductAndSum(n int) int {
-	product := 1
-	sum := 0
-	for n > 0 {
-		d := n % 10
-		product *= d
-		sum += d
-		n /= 10
-	}
-	return product - sum
+	return 0
 }

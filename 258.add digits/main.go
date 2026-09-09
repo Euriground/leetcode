@@ -6,14 +6,8 @@ func main() {
 	fmt.Println(addDigits(38))
 }
 
+// TODO: implement. See README.md for the problem statement.
+// https://leetcode.com/problems/add-digits/
 func addDigits(num int) int {
-	for num >= 10 {
-		sum := 0
-		for num > 0 {
-			sum += num % 10
-			num /= 10
-		}
-		num = sum
-	}
-	return num
+	return 0
 }
