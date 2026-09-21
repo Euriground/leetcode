@@ -10,5 +10,20 @@ func main() {
 // https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 // random change
 func numberOfSteps(num int) int {
-	return 0
+	count := 0
+
+	for {
+		if num == 0 {
+			break
+		}
+
+		if num%2 == 0 {
+			num /= 2
+		} else {
+			num -= 1
+		}
+
+		count++
+	}
+	return count
 }
